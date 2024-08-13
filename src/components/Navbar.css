@@ -1,0 +1,11 @@
+.icon-text-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .icon-text-link svg {
+    margin-right: 8px; /* Space between icon and text */
+    align-items: center;
+  }
+  

@@ -1,0 +1,58 @@
+/* Add this CSS to your stylesheet */
+.marquee-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: #f0f0f0; /* Optional: adjust background color */
+  }
+  
+  .marquee-content {
+    display: flex;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .marquee-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  .marquee-content:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .marquee-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .marquee-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .glow-card {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .glow-card:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes glow-animation {
+    from {
+      box-shadow: 0 0 10px rgba(0, 153, 255, 0.5);
+    }
+    to {
+      box-shadow: 0 0 20px rgba(0, 153, 255, 1);
+    }
+  }
+  
+  
