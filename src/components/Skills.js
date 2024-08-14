@@ -17,6 +17,7 @@ import tailwind from './images/tailwind-css.svg';
 import xampp from './images/xampp.svg';
 import dev from './images/dev.jpg';
 import blur from './images/blur.svg';
+import github from './images/githublogo.svg';
 
 function Skills() {
   const skills = [
@@ -31,7 +32,7 @@ function Skills() {
     { name: 'Laravel', icon:laravel },
     { name: 'Tailwind CSS', icon:tailwind },
     { name: 'GIT', icon: git },
-    { name: 'Github', icon: html },
+    { name: 'Github', icon: github },
     { name: 'Bitbucket', icon: bitbucket },
     { name: 'Apache', icon: apache },
     { name: 'Xampp', icon: xampp },

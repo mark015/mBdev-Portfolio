@@ -4,8 +4,8 @@ import bugasong from './images/projects/bugasong.png';
 import rhu from './images/projects/rhu.png';
 import teamasenso from './images/projects/teamasenso.png';
 import anotherProject from './images/projects/toboso.png'; // Add your new project's image import here
-import cdrrmo from './images/projects/cdrrmo.png'; // Add your new project's image import here
-import scshs from './images/projects/scshs.png'; // Add your new project's image import here
+import cdrrmo from './images/projects/cdrrmo-1.png'; // Add your new project's image import here
+import scshs from './images/projects/scshs-1.png'; // Add your new project's image import here
 
 import Modal from './ProjectsModal'; // Adjust the import path if needed
 import githublogo from './images/githublogo.svg';

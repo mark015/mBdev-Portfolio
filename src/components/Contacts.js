@@ -186,18 +186,22 @@ function Contacts() {
                 <div className='flex flex-col gap-4'>
                   {contacts.map((cont, index) => (
                     <div key={cont.id} className="flex flex-row items-center gap-4 break-all">
-                      <img src={cont.icon} />
-                      <div className="flex flex-col">
-                        <small className="font-medium text-left text-body-color">{cont.text}:</small>
-                        <a
-                          className="text-base font-bold text-dark hover:cursor-pointer hover:underline dark:text-white"
-                          href={cont.url}
-                          target="_blank"
-                        >
+                    <img src={cont.icon} alt="icon" className="w-6 h-6" />
+                    <div className="flex flex-col">
+                      <small className="font-medium text-left text-body-color dark:text-gray-300">
+                        {cont.text}:
+                      </small>
+                      <a
+                        className="text-base font-bold text-dark hover:cursor-pointer hover:underline dark:text-white"
+                        href={cont.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {cont.name}
-                        </a>
-                      </div>
+                      </a>
                     </div>
+                  </div>
+                  
                   ))}
                 </div>
               </div>

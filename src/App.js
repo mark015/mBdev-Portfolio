@@ -12,12 +12,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      {/* <Navbar />
-      <Home /> */}
+      <Navbar />
+      <Home />
       <Services />
       <Skills />
-      {/* <Experience /> */}
-      {/* <Projects /> */}
+      <Experience />
+      <Projects />
       <Contacts />
       <Footer />
 
