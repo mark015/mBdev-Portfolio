@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css'; // Ensure you have the CSS file for styles
-import myLogo from './images/myLogo-1.PNG';
+import myLogo from './images/myLogo-1.png';
 
 function TypewriterText() {
   const [text, setText] = useState('');
